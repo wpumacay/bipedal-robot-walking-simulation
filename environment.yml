@@ -1,0 +1,9 @@
+name: robo_walking_env
+channels:
+    - conda-forge
+dependencies:
+    - python==3.6.5
+    - numpy
+    - matplotlib
+    - pip:
+        - pybullet

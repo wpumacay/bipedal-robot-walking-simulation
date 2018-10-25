@@ -39,7 +39,7 @@ p.resetDebugVisualizerCamera(cameraDistance=1, cameraYaw=10,
                              cameraPitch=-0, cameraTargetPosition=[0.4, 0, 0.1])
 
 planeId = p.loadURDF("plane.urdf")
-humanoid = p.loadURDF(r"C:\Users\Scientist\ml_robotics\bipedal_robot_simulation\humanoid_leg_12dof.7.urdf", [0, 0, 0.1],
+humanoid = p.loadURDF("humanoid_leg_12dof.7.urdf", [0, 0, 0.1],
                       p.getQuaternionFromEuler([0, 0, 0]), useFixedBase=False)
 
 motorsController = motorController.MotorController(
